@@ -1,0 +1,16 @@
+{
+  "en-US": {
+    "say": {
+      "date": "The date is ",
+      "time": "It is ",
+      "unit": " hour "
+    }
+  },
+  "fr-FR": {
+    "say": {
+      "date": "La date ai ",
+      "time": "Il est ",
+      "unit": " heure "
+    }
+  }
+}
