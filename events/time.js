@@ -6,5 +6,10 @@ module.exports = function (msg) {
   let now = new Date()
   let hours = now.getHours()
   let min = now.getMinutes()
-  return { say: `${tts.say.time}${hours}${tts.say.unit}${min}` }
+  return {
+    say: {
+      phonetic: `${tts.say.time.phonetic}${hours}${tts.say.unit.phonetic}${min}`,
+      text: `${tts.say.time.text}${hours}${tts.say.unit.text}${min}`
+    }
+  }
 }

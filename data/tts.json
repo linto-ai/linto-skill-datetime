@@ -1,16 +1,34 @@
 {
   "en-US": {
     "say": {
-      "date": "The date is ",
-      "time": "It is ",
-      "unit": " hour "
+      "date":   {
+        "phonetic": "The date is ",
+        "text": "The date is "
+      },
+      "time":   {
+        "phonetic": "It is ",
+        "text": "It is "
+      },
+      "unit":   {
+        "phonetic": " hour ",
+        "text": " hour "
+      }
     }
   },
   "fr-FR": {
     "say": {
-      "date": "La date ai ",
-      "time": "Il est ",
-      "unit": " heure "
+      "date":  {
+        "phonetic":  "La date ai ",
+        "text": "La date est "
+      },
+      "time":   {
+        "phonetic": "Il ai ",
+        "text": "Il est "
+      },
+      "unit":   {
+        "phonetic": " heure ",
+        "text": " heure "
+      }
     }
   }
 }
