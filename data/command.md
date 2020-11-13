@@ -22,10 +22,16 @@
 - il est quelle heure
 
 ##intent|date|en
-- what's date it is
-- give me current date
+- what day is this
+- what day is it
+- what is today's date
+- what is the date today
+- give me the date
+- give me today's date
+- current date
 - can you give me the date
-- tell me what is the date today
+- tell me what day it is
+
 
 ##intent|date|fr
 - donne-moi la date d'aujourd'hui
