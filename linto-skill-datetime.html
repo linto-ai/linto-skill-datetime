@@ -1,6 +1,6 @@
 <script type="text/x-red" data-template-name="linto-skill-datetime">
     <div class="form-row">
-        <label for="node-input-name"><i class="fa fa-tag"/><span data-i18n="linto-skill-datetime.label.name" /></label>
+        <label for="node-input-name"><i class="fa fa-tag"></i> <span data-i18n="linto-skill-datetime.label.name" /></label>
         <div style="display: inline-block; width: 70%">
             <input type="text" id="node-input-name" data-i18n="[placeholder]linto-skill-datetime.placeholder.name" />
         </div>
@@ -8,10 +8,10 @@
 
     <div class="form-row" style="margin-bottom: 0px;" >
         <label for="node-input-command" style="width: auto;">
-            <i class="fa fa-wrench" />
-            <span data-i18n="linto-skill-datetime.label.command" />
-            <span style="color:RED; font-weight: bold;" id="node-input-command-custom" data-i18n="linto-skill-datetime.label.custom"/>
-            <span style="color:GREEN; font-weight: bold;" id="node-input-command-default" data-i18n="linto-skill-datetime.label.default"/>
+            <i class="fa fa-wrench"></i> 
+            <span data-i18n="linto-skill-datetime.label.command"></span>
+            <span style="color:RED; font-weight: bold;" id="node-input-command-custom" data-i18n="linto-skill-datetime.label.custom"></span>
+            <span style="color:GREEN; font-weight: bold;" id="node-input-command-default" data-i18n="linto-skill-datetime.label.default"></span>
         </label>
         <input type="hidden" id="node-input-command" autofocus="autofocus" />
     </div>
@@ -28,6 +28,9 @@
             },
             command: {
                 value: RED.settings.lintoSkillDatetime.command
+            },
+            description: {
+                value: RED.settings.lintoSkillDatetime.description
             }
         },
         ...RED.settings.lintoSkillDatetime.template,

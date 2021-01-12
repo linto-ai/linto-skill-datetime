@@ -1,6 +1,6 @@
 ##intent|time|en
-- actual hour
-- actual time
+- current hour
+- current time
 - time
 - what time is it
 - what's the time
@@ -9,54 +9,39 @@
 - the time please
 - the time
 - time now
-- what the time
+
 ##intent|time|fr
-- qu'elle heure est t'il
 - quelle heure est-il
-- quelle heure est il
-- donne moi l'heure
-- donne moi l heure
-- donne moi heure
-- donne moi l'heure s'il te plait
-- heure linto
-- heure merci
+- donne-moi l'heure
+- donne-moi l'heure s'il te plaît
 - quelle est l'heure
-- quelle est heure
-- peux tu me donner l'heure
-- peux tu me donner heure
-- heure
-- linto donne moi l'heure
-- linto donne moi l heure
-- peux-tu s'il te plaît me donner l'heure
 - peux-tu me donner l'heure
-- heures s'il te plaît
-- quelle heure
-- c'est quoi l'heure
+- peux-tu s'il te plaît me donner l'heure
+- l'heures s'il te plaît
+- c'est quoi l'heure maintenant
 - il est quelle heure
-- quelle heure est t’il
-- donne moi l’heure
-- quelle heure est-il
-- donne-moi l'heure s'il te plait
-- quelle est l'heure
-- peux tu me donner l'heure
+
 ##intent|date|en
-- what's date it is
-- actual date
-- date
-- date please
-- can you give me the date
+- what day is this
+- what day is it
+- what is today's date
+- what is the date today
 - give me the date
+- give me today's date
+- current date
+- can you give me the date
+- tell me what day it is
+
+
 ##intent|date|fr
-- donne moi la date
-- quelle date est t'il
-- date du jour
-- linto donne moi la date
-- peux tu me donner la date
+- donne-moi la date d'aujourd'hui
+- quelle est la date aujourd'hui
+- on est quelle jour aujourd'hui
+- donne-moi la date du jour
+- peux-tu me donner la date d'aujourd'hui
 - peux-tu s'il te plaît me donner la date
 - peux-tu me donner la date
-- quelle est la date
+- on est quelle date
 - peux-tu me donner la date s'il te plaît
-- date s'il te plaît
-- donne-moi la date du jour
-- donne-moi la date
-- c'est quoi la date
+- donne-moi la date s'il te plaît
+- c'est quoi la date aujourd'hui
